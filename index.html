@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MintVision Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f7f6f3;
+      --ink: #1a1a1a;
+      --muted: #5a5a5a;
+      --accent: #0b6e4f;
+      --border: #d8d5ce;
+      --card: #ffffff;
+      --warn-bg: #fff8e6;
+      --warn-border: #e6c35c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    header {
+      background: linear-gradient(165deg, #0b6e4f 0%, #083d2e 100%);
+      color: #f5faf7;
+      padding: 2.5rem 1.25rem 2rem;
+    }
+    header .wrap, main.wrap, footer.wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+    }
+    header h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 0.25rem 0;
+      opacity: 0.92;
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+    }
+    main.wrap {
+      padding: 1.75rem 1.25rem 3rem;
+    }
+    .notice {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      margin: 0 0 1.75rem;
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+    }
+    .notice strong { display: block; margin-bottom: 0.25rem; }
+    h2 {
+      margin: 2rem 0 0.75rem;
+      font-size: 1.35rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+    }
+    h3 {
+      margin: 1.25rem 0 0.5rem;
+      font-size: 1.1rem;
+    }
+    p, li { color: var(--ink); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.4rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+      background: var(--card);
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #ebe8e1; }
+    a { color: var(--accent); }
+    a:hover { text-decoration: underline; }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem;
+      font-family: system-ui, sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .meta {
+      font-family: system-ui, sans-serif;
+      font-size: 0.92rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+    .meta dt {
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .meta dt:first-child { margin-top: 0; }
+    .meta dd { margin: 0.15rem 0 0; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>MintVision Privacy Policy</h1>
+      <p>Effective date: November 5, 2026</p>
+      <p>Android app · package <code>com.mintvision.app</code></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="notice" role="note">
+      <strong>Before publishing</strong>
+      Replace the placeholder contact email (<code>privacy@mintvision.app</code>) with Cullen Chapman’s real contact email.
+      Confirm the Vision API provider name if still OpenAI (or update §4.2 if the configured API base / provider changes).
+    </div>
+
+    <dl class="meta">
+      <dt>Developer / publisher</dt>
+      <dd>Cullen Chapman</dd>
+      <dt>App</dt>
+      <dd>MintVision (<code>com.mintvision.app</code>) — comic / TCG scanner</dd>
+      <dt>Contact</dt>
+      <dd><a href="mailto:mintvision@yahoo.com">privacy@mintvision.app</a> (placeholder)</dd>
+    </dl>
+
+    <p>
+      This Privacy Policy describes how MintVision (“we,” “us,” or “the App”) handles information when you use the MintVision Android application.
+      By using MintVision, you agree to this Privacy Policy. If you do not agree, please do not use the App.
+    </p>
+
+    <h2 id="intro">1. Introduction</h2>
+    <p>
+      MintVision lets you photograph comics or trading cards and receive recognition results via a cloud Vision API.
+      Scan results and your collection are stored <strong>locally on your device</strong>.
+      The App does <strong>not</strong> create in-app user accounts or require sign-in.
+      Subscriptions (after a freemium allotment) are sold through <strong>Google Play Billing</strong>.
+    </p>
+    <p>We do <strong>not</strong> sell your personal data.</p>
+
+    <h2 id="collect">2. Information We Collect</h2>
+
+    <h3>2.1 Camera images (scan photos)</h3>
+    <p>
+      When you scan, the App uses the device camera to capture photos of cards or comics.
+      Those images are used for recognition and may be transmitted over the network to a cloud Vision API (see <a href="#third-parties">Third Parties</a>).
+    </p>
+
+    <h3>2.2 Scan results and collection data (on-device)</h3>
+    <p>
+      Recognition results and items you save to your collection are stored <strong>locally on your device</strong> using on-device storage (Room database).
+      This data stays on the device unless you choose to share it yourself outside the App (for example, by taking a screenshot).
+    </p>
+
+    <h3>2.3 Scan usage / freemium state (on-device)</h3>
+    <p>
+      The App tracks a local count of free scans used (3 free scans) so it can show the subscription paywall.
+      This counter is stored on the device.
+    </p>
+
+    <h3>2.4 Purchase / subscription status</h3>
+    <p>
+      If you subscribe, Google Play manages the purchase.
+      MintVision may receive from Google Play only what is needed to unlock premium features (for example, entitlement / subscription status).
+      <strong>MintVision does not receive your full payment card number</strong> or full payment instrument details.
+    </p>
+
+    <h3>2.5 What we do not collect (based on current App design)</h3>
+    <p>As of the effective date, MintVision does <strong>not</strong>:</p>
+    <ul>
+      <li>Require or offer in-app user accounts or sign-in</li>
+      <li>Sell advertising inventory inside the App (no third-party ad SDKs described here)</li>
+      <li>Intentionally collect analytics beyond what is necessary for scanning, local storage, and Play Billing entitlements <em>(if analytics or ads are added later, this policy will be updated)</em></li>
+    </ul>
+    <p class="muted">We do not invent or claim collection of categories we do not use.</p>
+
+    <h2 id="use">3. How We Use Information</h2>
+    <p>We use the information described above to:</p>
+    <ul>
+      <li>Capture and send scan images to a Vision API so the App can identify comics/cards</li>
+      <li>Display recognition results and store your collection locally</li>
+      <li>Enforce the freemium limit (3 free scans) and unlock premium features after a valid Google Play subscription</li>
+      <li>Operate, maintain, and improve core scanning functionality</li>
+      <li>Respond to privacy or support requests you send to our contact email</li>
+    </ul>
+    <p>We do <strong>not</strong> sell personal data.</p>
+
+    <h2 id="third-parties">4. Third Parties</h2>
+
+    <h3>4.1 Google Play / Google Play Billing</h3>
+    <p>
+      Subscriptions are offered at <strong>$4.99/month</strong> and <strong>$39.99/year</strong>
+      (prices may vary by region and are set in Google Play).
+      Purchases are processed by <strong>Google Play</strong>.
+      Google’s handling of payment and account data is governed by Google’s own policies
+      (for example, the
+      <a href="https://play.google.com/about/play-terms/" rel="noopener noreferrer">Google Play Terms of Service</a>
+      and related Google privacy documentation).
+      MintVision does not process full payment card numbers.
+    </p>
+
+    <h3>4.2 Cloud Vision API provider</h3>
+    <p>
+      To recognize a card or comic, the App sends the captured image (and related request data needed for the API call)
+      to a <strong>cloud Vision API</strong>.
+      The App’s documented path uses an <strong>OpenAI Vision–compatible</strong> endpoint; the API base URL is <strong>configurable</strong>.
+      Treat the Vision provider as a <strong>third-party processor</strong> that receives image data for the duration of the recognition request.
+    </p>
+    <p class="muted">
+      <strong>Confirm before publish:</strong> If the live provider is still OpenAI, keep the OpenAI reference;
+      if you point the Vision API base URL at another provider, update this section to name that provider and link its privacy policy.
+    </p>
+    <p>
+      The Vision provider processes image data according to its own terms and privacy policy.
+      We use the API only to return recognition results to the App. We do not sell scan images.
+    </p>
+
+    <h3>4.3 No sale of personal data</h3>
+    <p>We do not sell personal information to data brokers or advertisers.</p>
+
+    <h2 id="storage">5. Storage and Retention</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Where stored</th>
+          <th>Retention</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Collection / scan results</td>
+          <td>Locally on device (Room)</td>
+          <td>Until you delete items in-app or uninstall the App</td>
+        </tr>
+        <tr>
+          <td>Free-scan counter / premium entitlement cache</td>
+          <td>Locally on device</td>
+          <td>Until cleared by App logic, Play entitlement updates, or uninstall</td>
+        </tr>
+        <tr>
+          <td>Scan images sent for recognition</td>
+          <td>Transmitted to Vision API for the request</td>
+          <td>Handled by the Vision provider under its policies; MintVision does not operate a separate cloud collection database for your scans</td>
+        </tr>
+        <tr>
+          <td>Subscription / payment records</td>
+          <td>Google Play</td>
+          <td>Per Google’s retention practices</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>Uninstall:</strong> Uninstalling MintVision removes the App’s local on-device data (collection, scan results, local counters) from that device,
+      subject to normal Android uninstall behavior.
+      It does not automatically cancel a Google Play subscription—manage or cancel subscriptions in Google Play.
+    </p>
+
+    <h2 id="permissions">6. Permissions</h2>
+    <p>
+      MintVision requests the <strong>CAMERA</strong> permission so you can photograph comics and cards for scanning.
+      Camera access is used for scanning features.
+      If you deny camera permission, scanning features that require the camera will not work.
+    </p>
+
+    <h2 id="children">7. Children’s Privacy</h2>
+    <p>
+      MintVision is <strong>not directed to children under 13</strong>.
+      We do not knowingly collect personal information from children under 13.
+      If you believe a child under 13 has provided personal information through the App, contact us and we will take reasonable steps
+      to delete it from systems we control (noting that most App data lives only on the device).
+    </p>
+
+    <h2 id="security">8. Security</h2>
+    <p>
+      We take reasonable technical and organizational measures appropriate to an on-device collection app that transmits scan images for recognition
+      (for example, using HTTPS for network requests to the Vision API where configured).
+      No method of transmission or storage is 100% secure.
+      You are responsible for keeping your device secured (screen lock, OS updates, etc.).
+    </p>
+
+    <h2 id="choices">9. Your Choices</h2>
+    <ul>
+      <li><strong>Camera:</strong> You can deny or revoke camera permission in Android system settings.</li>
+      <li><strong>Local data:</strong> You can remove collection items in the App (where supported) or uninstall the App to remove local MintVision data.</li>
+      <li><strong>Subscription:</strong> Manage, cancel, or request refunds according to Google Play’s policies via Google Play / your Google account.</li>
+      <li><strong>Contact:</strong> Email us with privacy questions (see Contact).</li>
+    </ul>
+
+    <h2 id="changes">10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time (for example, if we change Vision providers, add accounts, or add analytics).
+      The “Effective date” at the top will be revised when we publish changes.
+      Continued use of the App after changes means you accept the updated policy.
+      For material changes, we may also provide notice in the App listing or in-app where practical.
+    </p>
+
+    <h2 id="contact">11. Contact</h2>
+    <p>
+      <strong>Cullen Chapman</strong> (MintVision)<br>
+      Email: <a href="mailto:privacy@mintvision.app">privacy@mintvision.app</a>
+    </p>
+    <p class="muted">
+      Replace <code>privacy@mintvision.app</code> with Cullen’s real contact email before publishing this policy or linking it from Google Play.
+    </p>
+    <p>For Play subscription issues, use Google Play’s subscription and purchase support channels.</p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>
+        This document is provided for MintVision’s Play Store listing and website use. It is not legal advice.
+        Consider having counsel review before launch if your jurisdiction or business model requires it.
+      </p>
+      <p>© 2026 Cullen Chapman · MintVision</p>
+    </div>
+  </footer>
+</body>
+</html>
